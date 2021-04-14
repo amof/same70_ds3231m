@@ -4,7 +4,7 @@
 #include <sysclk.h>
 #include <twihs.h>
 
-#include "../config/conf_board.h"
+#include "conf_board.h"
 #include "logger.h"
 
 const uint8_t DS3231_REGISTER_CONTROL			= 0x0E;
